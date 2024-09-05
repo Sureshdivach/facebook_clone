@@ -1,0 +1,26 @@
+.App {
+
+  border: 1px solid gray;
+  display:  grid;
+  grid-template-columns: 300px auto auto ;
+  grid-template-rows: 80px auto 80px ;
+  grid-template-areas: "nav nav nav"
+                      "aside main main"
+                      "footer footer footer";
+}
+.nav{
+  grid-area:nav;
+  border: 1px solid gray;
+}
+.sidebar{
+  grid-area: aside;
+  border: 1px solid gray;
+}
+.main{
+  grid-area: main;
+  border: 1px solid gray;
+}
+.footer{
+  grid-area: footer;
+  border: 1px solid gray;
+}

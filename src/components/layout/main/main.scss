@@ -1,0 +1,14 @@
+.main{
+    display: grid;
+    grid-template-columns: auto 500px;
+    height: 90vh;
+    grid-template-areas: "main_container contact_container";
+    & .main_container{
+        grid-area:main_container ;
+        border: 1px solid gray;
+        }
+        & .contact_container{
+            grid-area:contact_container ;
+            border: 1px solid gray;
+            }
+}
