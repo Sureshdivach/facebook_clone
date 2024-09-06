@@ -6,6 +6,12 @@
     & .main_container{
         grid-area:main_container ;
         border: 1px solid gray;
+     & .Story_container{
+        border: 1px solid gray;
+        display: flex;
+        padding: 1rem;
+        justify-content: space-between;
+     }   
         }
         & .contact_container{
             grid-area:contact_container ;

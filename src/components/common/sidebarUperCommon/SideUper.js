@@ -6,9 +6,10 @@ const SideBarUper = ({ UperArr = [] }) => {
           <li key={el.id}>
             {<img src={el.image} alt="" />}
             <h3>{el.label}</h3>
-          </li>
-        );
+          </li>          
+          );        
       })}
+        <div><button>See More </button></div>
     </div>
   );
 };
