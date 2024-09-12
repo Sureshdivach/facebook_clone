@@ -5,12 +5,17 @@ const SideBarUper = ({ UperArr = [] }) => {
         return (
           <li key={el.id}>
             {<img src={el.image} alt="" />}
-            <h3>{el.label}</h3>
-          </li>          
-          );        
+            <p>{el.label}</p>
+          </li>
+        );
       })}
-        <div><button>See More </button></div>
-    </div>
+      
+    
+
+      
+      <div><button>See More </button></div>
+   </div>
+   
   );
-};
+}
 export default SideBarUper;

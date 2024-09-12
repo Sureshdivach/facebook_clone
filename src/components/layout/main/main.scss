@@ -1,20 +1,39 @@
 .main{
     display: grid;
     grid-template-columns: auto 500px;
+    background-color: rgb(252, 251, 251);
     height: 90vh;
     grid-template-areas: "main_container contact_container";
     & .main_container{
         grid-area:main_container ;
-        border: 1px solid gray;
+        // background-color: rgb(233, 230, 230);
+        overflow: auto;
+        scrollbar-width: none;
+        border: 1px solid rgb(238, 238, 238);
      & .Story_container{
-        border: 1px solid gray;
-        display: flex;
-        padding: 1rem;
-        justify-content: space-between;
+      // border: 1px solid gray;
+      width: 98%;
+      margin: 10px auto;
+      gap: 5px;
+      display: flex;
+       padding: 0;
+       height: 250px;
+       justify-content: space-between;
      }   
-        }
+     & .fb_main_container{
+      width: 98%;
+      margin: 20px auto;
+      overflow: auto;
+      scrollbar-width: none;
+    //   border: 1px solid gray;
+     
+   }
+   }
         & .contact_container{
             grid-area:contact_container ;
-            border: 1px solid gray;
-            }
+            // border: 1px solid gray;
+            overflow: auto;
+            scrollbar-width: none;
+           }
+           
 }

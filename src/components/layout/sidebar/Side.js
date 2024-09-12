@@ -68,6 +68,20 @@ const DownObj={
                 label:"Manish Kumar",
                 name:"Manish Kumar"
             },
+            {
+                id:"6",
+                image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTno-Dyg_cjGMntFC7rnVbjgbPadhd2UK4GFmlaqQPrDfTmsrHFknpLHStLIVUPYBqqq0U&usqp=CAU",
+                label:"Ashok Kumar",
+                name:"Ashok Kumar"
+               
+            },
+            {
+                id:"7",
+                image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTno-Dyg_cjGMntFC7rnVbjgbPadhd2UK4GFmlaqQPrDfTmsrHFknpLHStLIVUPYBqqq0U&usqp=CAU",
+                label:"SevaRam",
+                name:"SevaRam"
+               
+            },
            
            
 ]

@@ -1,0 +1,94 @@
+.mainContactchild {
+  padding: 5px;
+  & .sponsored {
+    border: 1px solid rgb(240, 238, 238);
+    line-height: 0;
+
+    & .spondetails {
+      display: flex;
+      width: 98%;
+      margin: auto;
+      line-height: 1.2;
+      padding: 5px;
+      & .pizzaprofile {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+      }
+      & .pizzcontent {
+        width: 80%;
+        padding: 1rem;
+        margin: auto;
+        & .pizzaimg {
+          width: 97%;
+          height: 180px;
+          border-radius: 30px;
+        }
+      }
+    }
+  }
+  & .btn {
+    width: 100%;
+    text-align: left;
+    border: 1px solid rgb(243, 242, 242);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  & .card {
+    padding: 0;
+    position: relative;
+
+    & .birthdayCard {
+      // border: 1px solid gray;
+      width: 100%;
+      margin: 20px auto;
+
+      & .birthdayprofile {
+        display: flex;
+        align-items: center;
+        & img {
+          width: 60px;
+          height: 60px;
+          border-radius: 60px;
+        }
+        & p {
+          font-size: large;
+          font-weight: bold;
+          padding-left: 20px;
+        }
+      }
+      & video {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  & .ContactDetails{
+    border: 1px solid rgb(243, 242, 242);
+    width: 100%;
+    & .contact_head{
+        width: 96%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        font-size: large;
+        justify-content: space-between;
+       
+    }
+    & .contact_list{
+        display: flex;
+        width: 95%;
+        margin: 1rem auto;
+        align-items: center; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;       
+        & img{
+            width: 45px;
+            height: 45px;
+            border-radius: 50px;
+            border: 2px solid green;
+            background-color: aliceblue;
+        }   
+               
+    }
+  }
+}
